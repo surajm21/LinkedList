@@ -2,7 +2,7 @@ package com.bridglabz;
 
 public class LinkedList {
     Node head;
-
+    Node tail;
     class Node{
         int data;
         Node next;
@@ -14,26 +14,22 @@ public class LinkedList {
     }
     public void push(int data){
         Node newNode = new Node(data);
-        newNode.data = data;
-        newNode.next = null;
 
         if (head == null) {
             head = newNode;
+            tail = newNode;
         }else{
-        Node temp = head;
-        while(temp.next!=null){
-            temp = temp.next;
+            newNode.next = head;
+            head = newNode;
         }
-        temp.next = newNode;
-        }
+
     }
     public void print() {
-        Node newNode = head;
-        while (newNode.next != null){
-            System.out.print(newNode.data + " -> ");
-            newNode = newNode.next;
+        Node temp = head;
+        while(temp!=null) {
+            System.out.print(temp.data + "->");
+            temp = temp.next;
         }
-        System.out.println(newNode.data);
     }
 
 }

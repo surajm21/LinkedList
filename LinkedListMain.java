@@ -9,3 +9,6 @@ public class LinkedListMain {
         list.print();
     }
 }
+
+
+
