@@ -8,7 +8,14 @@ public class LinkedListMain {
         list.push(56);
         list.print();
     }
+    public static void appendData(){
+        LinkedList list = new LinkedList();
+        list.append(56);
+        list.append(30);
+        list.append(70);
+        list.print();
 
+    }
 }
 
 

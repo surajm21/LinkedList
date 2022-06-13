@@ -7,6 +7,9 @@ public class LinkedListProblem {
         System.out.println("Add Nodes");
         LinkedListMain.addData();
         System.out.println("\n=======================");
+
+        System.out.println("Append Nodes");
+        LinkedListMain.appendData();
     }
 }
 
