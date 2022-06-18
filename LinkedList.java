@@ -36,7 +36,13 @@ public class LinkedList {
             tail = newNode;
         }
     }
-
+    public void pop() {
+        if (head == null) {
+            System.out.println("The List is empty");
+            return;
+        }
+        head = head.next;
+    }
     public void print() {
         Node temp = head;
         while(temp!=null) {
@@ -44,5 +50,4 @@ public class LinkedList {
             temp = temp.next;
         }
     }
-
 }

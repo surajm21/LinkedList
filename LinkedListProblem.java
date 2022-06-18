@@ -10,6 +10,11 @@ public class LinkedListProblem {
 
         System.out.println("Append Nodes");
         LinkedListMain.appendData();
+        System.out.println("\n=======================");
+
+        System.out.println("Delete First Node");
+        LinkedListMain.popData();
+        System.out.println("\n===================");
     }
 }
 

@@ -14,7 +14,14 @@ public class LinkedListMain {
         list.append(30);
         list.append(70);
         list.print();
-
+    }
+    public static void popData(){
+        LinkedList list = new LinkedList();
+        list.push(70);
+        list.push(30);
+        list.push(56);
+        list.pop();
+        list.print();
     }
 }
 
