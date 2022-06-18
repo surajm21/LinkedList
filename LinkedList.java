@@ -62,6 +62,18 @@ public class LinkedList {
         newNode.next = preNode.next;
         preNode.next = newNode;
     }
+    public Node search(int data) {
+        Node temp = head;
+        Node searchedNode = null;
+        while(temp!=null){
+            if(temp.data == data) {
+                searchedNode = temp;
+                break;
+            }
+            temp = temp.next;
+        }
+        return searchedNode;
+    }
     public void print() {
         Node temp = head;
         while(temp!=null) {

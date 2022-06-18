@@ -38,6 +38,14 @@ public class LinkedListMain {
         list.insertNode(list.head, 30);
         list.print();
     }
+    public static void searchData() {
+        LinkedList list = new LinkedList();
+        list.push(70);
+        list.push(30);
+        list.push(56);
+        list.search(30);
+        list.print();
+    }
 }
 
 

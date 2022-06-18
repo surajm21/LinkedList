@@ -23,6 +23,10 @@ public class LinkedListProblem {
         System.out.println("Insert Node");
         LinkedListMain.insertData();
         System.out.println("\n===================");
+
+        System.out.println("Search Node");
+        LinkedListMain.searchData();
+        System.out.println("\n===================");
     }
 }
 
