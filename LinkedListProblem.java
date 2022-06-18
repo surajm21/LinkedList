@@ -15,6 +15,10 @@ public class LinkedListProblem {
         System.out.println("Delete First Node");
         LinkedListMain.popData();
         System.out.println("\n===================");
+
+        System.out.println("Delete Last Node");
+        LinkedListMain.popLastData();
+        System.out.println("\n===================");
     }
 }
 

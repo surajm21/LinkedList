@@ -23,6 +23,14 @@ public class LinkedListMain {
         list.pop();
         list.print();
     }
+    public static void popLastData(){
+        LinkedList list = new LinkedList();
+        list.push(70);
+        list.push(30);
+        list.push(56);
+        list.popLast();
+        list.print();
+    }
 }
 
 
