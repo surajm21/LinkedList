@@ -31,6 +31,13 @@ public class LinkedListMain {
         list.popLast();
         list.print();
     }
+    public static void insertData() {
+        LinkedList list = new LinkedList();
+        list.push(70);
+        list.push(56);
+        list.insertNode(list.head, 30);
+        list.print();
+    }
 }
 
 

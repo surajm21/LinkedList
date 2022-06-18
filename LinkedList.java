@@ -54,6 +54,14 @@ public class LinkedList {
         tail = secondLastNode;
         return;
     }
+    public void insertNode( Node preNode, int NewNode){
+        if(preNode == null){
+            return;
+        }
+        Node newNode = new Node(NewNode);
+        newNode.next = preNode.next;
+        preNode.next = newNode;
+    }
     public void print() {
         Node temp = head;
         while(temp!=null) {

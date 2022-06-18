@@ -19,6 +19,10 @@ public class LinkedListProblem {
         System.out.println("Delete Last Node");
         LinkedListMain.popLastData();
         System.out.println("\n===================");
+
+        System.out.println("Insert Node");
+        LinkedListMain.insertData();
+        System.out.println("\n===================");
     }
 }
 
